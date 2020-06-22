@@ -1,0 +1,4 @@
+SUBSYSTEM=="sis8160",	RUN+="/export/doocs/server/doocs stop sis8160dma_server"
+SUBSYSTEM=="sis8160",	MODE="0666"
+KERNEL=="sis8160s1",	SYMLINK="sis8160-0"
+
